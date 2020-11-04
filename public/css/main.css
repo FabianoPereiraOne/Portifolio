@@ -98,7 +98,10 @@
 /* middle */
 .bg-lamp {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+}
+.web img{
+    margin-bottom: 25rem;
 }
 .developer {
     text-align: right;
@@ -108,8 +111,9 @@
 }
 .developer img{
     position: absolute;
-    bottom: 1px;
-    right: 1px;
+    bottom: 0.1rem;
+    right: 0.1rem;
+    width: 50rem;
 }
 
 
