@@ -87,8 +87,30 @@
     animation: selection 0.5s linear forwards;
 }
 
-
-
+/* background */
+.bg-lamp {
+    background: url(../img/bg-home.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 6.5rem);
+}
+/* middle */
+.bg-lamp {
+    display: flex;
+    align-items: center;
+}
+.developer {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.developer img{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
 
 
 @media screen and (max-width: 768px) {
