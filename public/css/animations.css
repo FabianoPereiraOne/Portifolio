@@ -1,52 +1,64 @@
-.wavy{
-    position: relative;
+.wavy {
+  position: relative;
 }
-.wavy span{
-    position: relative;
-    display: inline-block;
-    animation: alegre 1s ease-in-out;
-    animation-delay: calc(0.2s * var(--i));
+.wavy span {
+  position: relative;
+  display: inline-block;
+  animation: alegre 1s ease-in-out;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 @keyframes alegre {
-    0%{
-        transform: translateY(0);
-    }
-    20%{
-        transform: translateY(-10px);
-    }
-    40%,100%{
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  40%,
+  100% {
+    transform: translateY(0);
+  }
 }
 @keyframes selection {
-    0%{
-        left: -100%;
-        top: calc(50% - 0.2rem);
-        height: 0.4rem;
-        z-index: 1;
-    }
-    50%{
-        left: 0;
-        top: calc(50% - 0.2rem);
-        height: 0.4rem;
-        z-index: 1;
-    }
-    100%{
-        left: 0;
-        top: 0;
-        height: 100%;
-        z-index: -1;
-    }
+  0% {
+    left: -100%;
+    top: calc(50% - 0.2rem);
+    height: 0.4rem;
+    z-index: 1;
+  }
+  50% {
+    left: 0;
+    top: calc(50% - 0.2rem);
+    height: 0.4rem;
+    z-index: 1;
+  }
+  100% {
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
 }
 @keyframes rotate {
-    0%{
-        transform: rotateY(0);
-    }
-    50%{
-        transform: rotateY(90deg);
-    }
-    100%{
-        transform: rotateY(0);
-    }
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+@keyframes emerged {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
