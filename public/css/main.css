@@ -90,85 +90,15 @@
 
 /* background */
 .bg-lamp {
-  background: url(../img/bg-home.jpg);
-  background-position: top;
+  background: url(../img/office-932926_1920.jpg);
+  background-position: center;
   background-size: cover;
   width: 100vw;
-  height: calc(100vh - 6.5rem);
-}
-/* middle */
-.bg-lamp {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  height: calc(100vh - 6rem);
 }
 
-.web {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-.web img {
-  margin-bottom: 20rem;
-  animation: emerged 5s ease-in-out;
-}
+/* carousel home*/
 
-.developer {
-  text-align: right;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-.developer img {
-  position: absolute;
-  bottom: 0.1rem;
-  right: 0.1rem;
-  width: 50rem;
-  margin-bottom: 2rem;
-  animation: emerged 5s ease-in-out;
-}
-/* Social icons */
-.jumbotron {
-  background-color: rgba(0, 0, 0, 0.01);
-}
-.icons-social {
-  margin-left: 5rem;
-  display: flex;
-  align-items: center;
-}
-.icons-social ul {
-  position: relative;
-  display: flex;
-  margin: 0;
-}
-.icons-social ul li {
-  position: relative;
-  list-style: none;
-  margin-bottom: 0.5rem;
-}
-.icons-social ul li a {
-  position: relative;
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--cor-de-fundo);
-  border-radius: 50%;
-  color: var(--cor-complementar-dois);
-  font-size: 3rem;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.icons-social ul li a:hover {
-  color: var(--cor-complementar-um);
-  animation: rotate 1s ease-in-out;
-}
-
-/* photo */
-.photo {
-  animation: rotate 2s ease-in-out;
-}
 @media screen and (max-width: 768px) {
   .nav-brand {
     font-size: 2.5rem;
@@ -177,9 +107,6 @@
     text-align: center;
     font-size: 2rem;
     padding-top: 1rem;
-  }
-  .icons-social {
-    margin-left: 1rem;
   }
 }
 @media screen and (max-width: 360px) {
