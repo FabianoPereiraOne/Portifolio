@@ -89,7 +89,7 @@
 }
 
 /* background */
-.bg-lamp {
+.bg-1 {
   background: url(../img/office-932926_1920.jpg);
   background-position: center;
   background-size: cover;
@@ -97,7 +97,49 @@
   height: calc(100vh - 6rem);
 }
 
-/* carousel home*/
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-1 .carousel-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bg-1 .carousel-item h1 {
+  font-size: 5rem;
+  font-family: var(--ubuntu);
+  color: var(--cor-complementar-um);
+  font-weight: bold;
+  text-shadow: 0.4rem 0.1rem 0.1rem var(--cor-de-fundo);
+}
+.bg-1 .carousel-item hr {
+  width: 15rem;
+  height: 0.2rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.5rem solid black;
+}
+.bg-1 .carousel-item p {
+  width: 50rem;
+  margin: 0;
+  color: var(--cor-destaque);
+  font-family: var(--lato);
+  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-contraste);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
   .nav-brand {
@@ -107,6 +149,12 @@
     text-align: center;
     font-size: 2rem;
     padding-top: 1rem;
+  }
+
+  /* carousel */
+  .bg-1 .carousel-item p {
+    width: 40rem;
+    margin: 0;
   }
 }
 @media screen and (max-width: 360px) {
@@ -125,5 +173,11 @@
     text-align: center;
     font-size: 2rem;
     padding-top: 2rem;
+  }
+
+  /*carousel*/
+  .bg-1 .carousel-item p {
+    width: 20rem;
+    margin: 0;
   }
 }
