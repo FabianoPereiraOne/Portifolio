@@ -90,7 +90,7 @@
 
 /* background */
 .bg-1 {
-  background: url(../img/office-932926_1920.jpg);
+  background: url(../img/bg-2.jpg);
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -113,34 +113,41 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   text-align: center;
+  height: 75%;
 }
 .bg-1 .carousel-item h1 {
   font-size: 5rem;
   font-family: var(--ubuntu);
-  color: var(--cor-complementar-um);
+  color: var(--cor-complementar-dois);
   font-weight: bold;
-  text-shadow: 0.4rem 0.1rem 0.1rem var(--cor-de-fundo);
+  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-fundo);
 }
 .bg-1 .carousel-item hr {
   width: 15rem;
   height: 0.2rem;
   margin-top: -0.5rem;
   margin-bottom: 2rem;
-  border-bottom: 0.5rem solid black;
+  border-bottom: 0.5rem solid var(--cor-de-fundo);
 }
 .bg-1 .carousel-item p {
   width: 50rem;
   margin: 0;
   color: var(--cor-destaque);
   font-family: var(--lato);
-  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-contraste);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 7rem;
 }
-
+.bg-1 .carousel-item button {
+  height: 5rem;
+  width: 50%;
+  font-size: 2rem;
+  background-color: var(--cor-complementar-dois);
+  color: var(--cor-de-fundo);
+}
 @media screen and (max-width: 768px) {
   .nav-brand {
     font-size: 2.5rem;
