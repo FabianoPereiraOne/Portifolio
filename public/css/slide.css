@@ -1,0 +1,112 @@
+.bg-1 {
+  background: url(../img/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 6rem);
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-1 .carousel-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  height: 75%;
+}
+.bg-1 .carousel-item h1 {
+  font-size: 5rem;
+  font-family: var(--ubuntu);
+  color: var(--cor-complementar-dois);
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-fundo);
+}
+.bg-1 .carousel-item hr {
+  width: 15rem;
+  height: 0.1rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  background-color: var(--cor-de-fundo);
+}
+.bg-1 .carousel-item p {
+  width: 50rem;
+  margin: 0;
+  color: #9c88ff;
+  font-family: var(--lato);
+  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-contraste);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  max-width: 500px;
+  max-height: 350px;
+  text-align: center;
+}
+.bg-1 .carousel-item a {
+    position: relative;
+    color: var(--cor-de-fundo);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6b1c20;
+    box-shadow: 0 .5rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    text-align: center;
+}
+.bg-1 .carousel-item a:hover  {
+    background: #e61f29;
+}
+
+
+@media screen and (max-width: 768px) {
+  .bg-1 .carousel-item h1 {
+      padding-bottom: 1rem;
+  }
+  .bg-1 .carousel-item hr {
+      margin-bottom: 1rem;
+  }
+  .bg-1 .carousel-item p {
+    width: 80%;
+    margin: 0;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+    .bg-1 .carousel-item h1 {
+        padding-bottom: 1rem;
+        font-size: 4rem;
+    }
+    .bg-1 .carousel-item hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+  .bg-1 .carousel-item p {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+  .bg-1 .carousel-item button {
+    height: 4rem;
+    width: 50%;
+    font-size: 2rem;
+    background-color: var(--cor-complementar-dois);
+    color: var(--cor-de-fundo);
+    text-transform: uppercase;
+  }
+}
