@@ -40,7 +40,7 @@
   margin-bottom: 3rem;
 }
 .bg-1 .carousel-item p {
-  width: 50rem;
+  width: 100%;
   margin: 0;
   color: #9c88ff;
   font-family: var(--lato);
@@ -52,13 +52,8 @@
   max-height: 350px;
   text-align: center;
   padding: 0 2rem;
-  transition: 1s;
-}
-.bg-1 .carousel-item p:hover {
-  color: #e3e1eb;
 }
 .bg-1 .banner a {
-    position: relative;
     color: var(--cor-de-fundo);
     padding: 1rem 2rem;
     font-size: 2rem;

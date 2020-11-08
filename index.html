@@ -38,7 +38,8 @@
     <link rel="stylesheet" href="public/css/slide.css" />
   </head>
   <body>
-    <nav class="navbar navbar-dark fixed-top navbar-expand-lg py-4">
+      <!--Navbar-->
+    <nav id="home" class="navbar navbar-dark fixed-top navbar-expand-lg py-4">
       <a id="logo" href="index.html" class="nav-brand ml-lg-4 ml-2 wavy"
         ><!--Logo-->
         <i class="fas fa-code mr-1"></i>
@@ -79,6 +80,7 @@
           <li class="nav-item mr-lg-2">
             <a href="#" class="nav-link p-2">Sobre</a>
           </li>
+          
           <li class="nav-item mr-lg-2">
             <a href="#" class="nav-link p-2">Projetos</a>
           </li>
@@ -89,13 +91,16 @@
       </div>
     </nav>
 
-    <div class="container-fluid bg-1 p-0">
+    <div class="container-fluid bg-1 p-0"><!-- Slide -->
       <div class="container cards-home p-0">
-        <div class="carousel side h-100" data-ride="carousel">
+        <div class="carousel slide h-100" data-ride="carousel">
           <div class="carousel-inner h-100">
-            <div class="carousel-item banner  active w-100">
+            <div
+              class="carousel-item banner active"
+              data-interval="10000"
+            >
               <h1>Programador Web</h1>
-              <hr class="hr"/>
+              <hr class="hr" />
               <p>
                 Todas as infomações sobre mim, meus projetos, contato e muito
                 mais estão disponiveis aqui. Curioso para saber sobre mim? Está
@@ -105,37 +110,126 @@
               </p>
               <a href="sobre"> Começar </a>
             </div>
-            <div class="carousel-item w-100">
+            <div class="carousel-item w-100" data-interval="11000">
               <h1>Redes Sociais</h1>
-              <hr class="my-0"/>
+              <hr class="my-0" />
               <div class="container">
-                  <div class="row  redes-sociais">
-                      <div class="col-12">
-                        <a href="https://github.com/FabianoPereiraOne" target="_blank">
-                          <i class="fab fa-github-square"></i>
-                          <span>GitHub</span>
-                        </a>
-                      </div>
-                      <div class="col-12">
-                        <a href="https://www.linkedin.com/in/fabiano-pereireira-one/" target="_blank">
-                          <i class="fab fa-linkedin"></i>
-                         <span>Linkedin</span>
-                        </a>
-                      </div>
-                      <div class="col-12">
-                        <a href="https://api.whatsapp.com/send?l=pt_BR&phone=+5533999319313&text=Oi Fabiano, estou interessado em seus serviços!" target="_blank" >
-                          <i class="fab fa-whatsapp-square"></i>
-                          <span>Whatsapp</span>
-                        </a>
-                      </div>
+                <div class="row redes-sociais">
+                  <div class="col-12">
+                    <a
+                      href="https://github.com/FabianoPereiraOne"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github-square"></i>
+                      <span>GitHub</span>
+                    </a>
                   </div>
+                  <div class="col-12">
+                    <a
+                      href="https://www.linkedin.com/in/fabiano-pereireira-one/"
+                      target="_blank"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                      <span>Linkedin</span>
+                    </a>
+                  </div>
+                  <div class="col-12">
+                    <a
+                      href="https://api.whatsapp.com/send?l=pt_BR&phone=+5533999319313&text=Oi Fabiano, estou interessado em seus serviços!"
+                      target="_blank"
+                    >
+                      <i class="fab fa-whatsapp-square"></i>
+                      <span>Whatsapp</span>
+                    </a>
+                  </div>
+                  <div class="col-12">
+                      <p>
+                        Me siga nas redes sociais para você ficar por dentro de todos os
+                        projetos que eu faço.
+                      </p>
+                  </div>
+                </div>
               </div>
-              <p>Me siga nas redes sociais para você ficar por dentro de todos os projetos que eu faço.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <a class="icon-top" href="#home">
+      <i class="fas fa-arrow-up"></i>
+      <span>Topo</span>
+    </a>
+
+    <div class="container-fluid sobre" id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xl-4 col-xs-12 citacao">
+              <h3>Citação</h3>
+              <p>
+                “A arte de programar consiste na arte de organizar e dominar a complexidade.”
+              </p>
+              <span>--Dijkstra</span>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xl-4 col-xs-12 photo">
+              <img src="public/img/foto.svg" class="img-fluid" alt="Foto">
+          </div>
+          <div class="col-md-4 col-sm-12 col-xl-4 col-xs-12 texto">
+            <h3>Olá :)</h3>
+            <p>
+              Sou Fabiano Pereira, desenvolvedor Front-End especialista na criação de interfaces web, e estou sempre buscando novos desafios para aprimorar minhas habilidades.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid skills">
+        <div id="carrousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="container">
+              <div class="row">
+                  <div class="col-3 local-skills">
+                    <div class="carousel-item active">
+                      <i class="fab fa-html5"></i>
+                    </div>
+                  </div>
+                  <div class="col-3 local-skills">
+                    <div class="carousel-item active">
+                      <i class="fab fa-css3-alt"></i>
+                    </div>
+                  </div>
+                  <div class="col-3 local-skills">
+                    <div class="carousel-item active">
+                      <i class="fab fa-js-square"></i>
+                    </div>
+                  </div>
+                  <div class="col-3 local-skills">
+                    <div class="carousel-item active">
+                      <i class="fab fa-bootstrap"></i>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <a class="carousel-control-prev" href="#carrousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="##carrousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     <!--Links JS-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
