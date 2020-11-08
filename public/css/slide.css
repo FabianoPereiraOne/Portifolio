@@ -8,7 +8,7 @@
 
 .carousel-inner {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .cards-home {
@@ -19,13 +19,10 @@
   justify-content: center;
 }
 .bg-1 .carousel-item {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
-  height: 75%;
+ overflow: hidden;
+ text-align: center;
+ height: 75%;
+ transition: 1s;
 }
 .bg-1 .carousel-item h1 {
   font-size: 5rem;
@@ -38,8 +35,9 @@
   width: 15rem;
   height: 0.1rem;
   margin-top: -0.5rem;
-  margin-bottom: 2rem;
   background-color: var(--cor-de-fundo);
+  margin: auto;
+  margin-bottom: 3rem;
 }
 .bg-1 .carousel-item p {
   width: 50rem;
@@ -53,8 +51,13 @@
   max-width: 500px;
   max-height: 350px;
   text-align: center;
+  padding: 0 2rem;
+  transition: 1s;
 }
-.bg-1 .carousel-item a {
+.bg-1 .carousel-item p:hover {
+  color: #e3e1eb;
+}
+.bg-1 .banner a {
     position: relative;
     color: var(--cor-de-fundo);
     padding: 1rem 2rem;
@@ -66,40 +69,83 @@
     transition: .5s;
     text-align: center;
 }
-.bg-1 .carousel-item a:hover  {
+.bg-1 .banner a:hover  {
     background: #e61f29;
 }
+
+/*redes sociais*/
+.redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  text-align: center;
+}
+.redes-sociais .col-12 {
+  margin-bottom: 0.3rem;
+  padding: 2rem 0;
+}
+.redes-sociais a{
+  width: 100%;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  height: 30%;
+  background-color: var(--cor-complementar-tres);
+  color: var(--cor-de-fundo);
+  transition: 1s;
+}
+.redes-sociais a:hover{
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-complementar-tres);
+}
+
+.redes-sociais .new-hr {
+  margin-bottom: 0;
+}
+
 
 
 @media screen and (max-width: 768px) {
   .bg-1 .carousel-item h1 {
       padding-bottom: 1rem;
+      font-size: 4rem;
   }
-  .bg-1 .carousel-item hr {
+  .bg-1 .carousel-item .hr {
       margin-bottom: 1rem;
   }
   .bg-1 .carousel-item p {
-    width: 80%;
+    width: 100%;
     margin: 0;
     margin-bottom: 4rem;
     text-align: center;
+    font-size: 1.5rem;
+    padding: 0 2rem;
   }
+  .bg-1 .carousel-item {
+    overflow: hidden;
+    text-align: center;
+    height: 75%;
+   }
 }
+
+
 @media screen and (max-width: 360px) {
     .bg-1 .carousel-item h1 {
         padding-bottom: 1rem;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .bg-1 .carousel-item hr {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
   .bg-1 .carousel-item p {
-    width: 80%;
+    width: 100%;
     margin: 0;
-    text-align: center;
     margin-bottom: 4rem;
+    text-align: center;
     font-size: 1.5rem;
+    padding: 0 2rem;
   }
   .bg-1 .carousel-item button {
     height: 4rem;
@@ -109,4 +155,9 @@
     color: var(--cor-de-fundo);
     text-transform: uppercase;
   }
+  .bg-1 .carousel-item {
+    overflow: hidden;
+    text-align: center;
+    height: 75%;
+   }
 }
