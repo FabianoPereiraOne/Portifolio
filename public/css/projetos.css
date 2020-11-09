@@ -1,0 +1,50 @@
+
+.bg-projetos {
+    background-color: var(--cor-de-contraste);
+  }
+  .bg-projetos .linha-1 {
+    margin-top: 4rem;
+
+  }
+  .bg-projetos .card-body {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .bg-projetos .card-body h2 {
+    margin-top: 1rem;
+    color: var(--cor-complementar-um);
+    font-weight: bold;
+    font-family: var(--roboto-condensed);
+  }
+  .bg-projetos .card-body p {
+    font-size: 1.5rem;
+    font-family: var(--roboto-slab);
+    color: var(--cor-complementar-tres);
+    margin-bottom: 2rem;
+  }
+  .bg-projetos .card-body  a {
+    border: 0.2rem solid var(--cor-complementar-um);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: var(--cor-de-contraste);
+    font-weight: bold;
+    font-family: var(--lato);
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: all 1s ease-in-out;
+    font-size: 1.5rem;
+  }
+  .bg-projetos .card-body  a:hover {
+    background-color: var(--cor-complementar-um);
+    color: var(--cor-de-fundo);
+  }
+  
+  .card-img-overlay {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+  .card-img-overlay:hover {
+    background-color: var(--cor-de-fundo);
+    opacity: 1;
+  }
