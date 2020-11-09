@@ -38,6 +38,7 @@
   font-weight: bold;
   cursor: pointer;
   font-family: var(--roboto-slab);
+  text-decoration: none !important;
 }
 
 /* sobre */
@@ -90,6 +91,7 @@
   font-weight: bold;
   font-family: var(--roboto);
   font-size: 3rem;
+  margin-left: 1rem;
 }
 
 .sobre .container .row  .texto p{
@@ -99,20 +101,28 @@
   text-align: center;
 }
 
+/* skills */
 .sobre .container-fluid {
   background-color: var(--cor-de-fundo);
 }
 
-.skills {
-  overflow: hidden;
+.container-skills {
+  padding: 1rem 0;
 }
-.local-skills i {
-  font-size: 6rem;
+.container-skills .col-3 {
+  display: flex;
+  justify-content: center;
 }
 
-
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
 @media screen and (max-width: 768px) {
-  .sobre .container {
+  .sobre .sobre-parte {
     overflow: hidden;
     margin-top: 5rem;
   }
@@ -120,7 +130,7 @@
 
 
 @media screen and (max-width: 360px) {
-  .sobre .container {
+  .sobre .sobre-parte {
     overflow: hidden;
     margin-top: 5rem;
   }

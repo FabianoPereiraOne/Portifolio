@@ -97,7 +97,7 @@
           <div class="carousel-inner h-100">
             <div
               class="carousel-item banner active"
-              data-interval="10000"
+              data-interval="4000"
             >
               <h1>Programador Web</h1>
               <hr class="hr" />
@@ -110,7 +110,7 @@
               </p>
               <a href="sobre"> Começar </a>
             </div>
-            <div class="carousel-item w-100" data-interval="11000">
+            <div class="carousel-item w-100" data-interval="5000">
               <h1>Redes Sociais</h1>
               <hr class="my-0" />
               <div class="container">
@@ -162,7 +162,7 @@
     </a>
 
     <div class="container-fluid sobre" id="sobre">
-      <div class="container">
+      <div class="container sobre-parte">
         <div class="row">
           <div class="col-md-4 col-sm-12 col-xl-4 col-xs-12 citacao">
               <h3>Citação</h3>
@@ -183,34 +183,40 @@
         </div>
       </div>
 
-      <div class="container-fluid skills">
-        <div id="carrousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="container">
-              <div class="row">
-                  <div class="col-3 local-skills">
-                    <div class="carousel-item active">
-                      <i class="fab fa-html5"></i>
-                    </div>
-                  </div>
-                  <div class="col-3 local-skills">
-                    <div class="carousel-item active">
-                      <i class="fab fa-css3-alt"></i>
-                    </div>
-                  </div>
-                  <div class="col-3 local-skills">
-                    <div class="carousel-item active">
-                      <i class="fab fa-js-square"></i>
-                    </div>
-                  </div>
-                  <div class="col-3 local-skills">
-                    <div class="carousel-item active">
-                      <i class="fab fa-bootstrap"></i>
-                    </div>
-                  </div>
+      <div class="container-fluid">
+        <div class="container mt-0 py-2">
+          <div id="skills" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row container-skills">
+                  <div class="col-3"><img class="d-block img-fluid" src="public/img/html.svg" alt="Html5"></div>
+                  <div class="col-3"><img class="d-block img-fluid" src="public/img/css.svg" alt="Css3"></div>
+                  <div class="col-3"><img class="d-block img-fluid" src="public/img/js.svg" alt="JavaScript"></div>
+                  <div class="col-3"><img class="d-block img-fluid" src="public/img/bootstrap.svg" alt="Bootstrap4"></div>
+                </div>
               </div>
+              <!-- Outras Skills Aqui
+              <div class="carousel-item">
+                <div class="row container-skills">
+                  <div class="col-3"></div>
+                  <div class="col-3"></div>
+                  <div class="col-3"></div>
+                  <div class="col-3"></div>
+                </div>
+              </div>
+            -->
             </div>
+            <a class="carousel-control-prev" href="#skills" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#skills" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
           </div>
+        </div>
+      </div>
 
 
 
