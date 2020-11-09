@@ -1,0 +1,95 @@
+/* sobre */
+.sobre {
+    background-color: var(--cor-de-contraste);
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .sobre .container {
+    overflow: hidden;
+    margin-top: 10rem;
+  }
+  .sobre .container .row  {
+    overflow: hidden;
+  }
+  .sobre .container .citacao {
+    margin-bottom: 1rem;
+  }
+  .sobre .container .row .citacao h3{
+    color: var(--cor-complementar-um);
+    padding: 1rem 0;
+    font-weight: bold;
+    font-family: var(--roboto-mono);
+  }
+  
+  .sobre .container .row .citacao p{
+    color: var(--cor-de-fundo);
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--roboto-slab);
+  }
+  .sobre .container .row .citacao span {
+    color: var(--cor-destaque);
+    font-family: var(--lato);
+    font-size: 1.5rem;
+    display: block;
+    text-align: right;
+  }
+  
+  .sobre .container .row  .photo {
+    margin-bottom: 1rem;
+  }
+  .sobre .container .row  .texto {
+    padding: 1rem 0;
+  }
+  .sobre .container .row  .texto h3 {
+    color: var(--cor-complementar-um);
+    padding: 1rem 0;
+    font-weight: bold;
+    font-family: var(--roboto);
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  
+  .sobre .container .row  .texto p{
+    color: var(--cor-de-fundo);
+    font-family: var(--roboto-slab);
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* skills */
+  .sobre .container-fluid {
+    background-color: var(--cor-de-fundo);
+  }
+  
+  .container-skills {
+    padding: 1rem 0;
+  }
+  .container-skills .col-3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+  @media screen and (max-width: 768px) {
+    .sobre .sobre-parte {
+      overflow: hidden;
+      margin-top: 5rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 360px) {
+    .sobre .sobre-parte {
+      overflow: hidden;
+      margin-top: 5rem;
+    }
+  }
+  
