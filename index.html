@@ -76,17 +76,17 @@
       <div id="menu" class="navbar-collapse collapse justify-content-end">
         <ul class="navbar-nav">
           <li class="nav-item mr-lg-2">
-            <a href="index.html" class="nav-link p-2">Home</a>
+            <a href="index.html" class="nav-link p-2 scroll-page">Home</a>
           </li>
           <li class="nav-item mr-lg-2">
-            <a href="#" class="nav-link p-2">Sobre</a>
+            <a href="#sobre" class="nav-link p-2 scroll-page">Sobre</a>
           </li>
           
           <li class="nav-item mr-lg-2">
-            <a href="#" class="nav-link p-2">Projetos</a>
+            <a href="#projetos" class="nav-link p-2 scroll-page">Projetos</a>
           </li>
           <li class="nav-item mr-lg-2">
-            <a href="#" class="nav-link p-2">Contato</a>
+            <a href="#contato" class="nav-link p-2 scroll-page">Contato</a>
           </li>
         </ul>
       </div>
@@ -109,7 +109,7 @@
                 incriveis na web? Entao embarque nessa jornada e conheça os
                 projetos que eu sou capaz de desenvolver.
               </p>
-              <a href="sobre"> Começar </a>
+              <a href="sobre scroll-page">Começar</a>
             </div>
             <div class="carousel-item w-100" data-interval="5000">
               <h1>Redes Sociais</h1>
@@ -157,7 +157,7 @@
       </div>
     </div>
 
-    <a class="icon-top" href="#home">
+    <a class="icon-top scroll-page" href="#home">
       <i class="fas fa-arrow-up"></i>
       <span>Topo</span>
     </a>
@@ -193,7 +193,8 @@
                   <div class="col-3"><img class="d-block img-fluid" src="public/img/html.svg" alt="Html5"></div>
                   <div class="col-3"><img class="d-block img-fluid" src="public/img/css.svg" alt="Css3"></div>
                   <div class="col-3"><img class="d-block img-fluid" src="public/img/js.svg" alt="JavaScript"></div>
-                  <div class="col-3"><img class="d-block img-fluid" src="public/img/bootstrap.svg" alt="Bootstrap4"></div>
+                  <div class="col-3"><img class="d-block img-fluid" src="public/img/bootstrap.svg" alt="Bootstrap4">
+                  </div>
                 </div>
               </div>
               <!-- Outras Skills Aqui
@@ -205,33 +206,25 @@
                   <div class="col-3"></div>
                 </div>
               </div>
-            -->
-            </div>
-            <a class="carousel-control-prev" href="#skills" role="button" data-slide="prev">
+              -->
+              <a class="carousel-control-prev" href="#skills" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#skills" role="button" data-slide="next">
+              </a>
+              <a class="carousel-control-next" href="#skills" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Proximo</span>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-          <a class="carousel-control-prev" href="#carrousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="##carrousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Proximo</span>
-          </a>
         </div>
       </div>
     </div>
 
     <!--Projetos-->
-    <div class="container-fluid bg-projetos">
+    <div class="container-fluid bg-projetos" id="projetos">
         <div class="row">
           <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
             <div class="card">
@@ -366,6 +359,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="public/js/jquery-3.1.0.js"></script>
     <script src="public/js/animation.js"></script>
+    <script src="public/js/main.js"></script>
   </body>
 </html>
