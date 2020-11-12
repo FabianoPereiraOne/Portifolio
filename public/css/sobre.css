@@ -3,11 +3,16 @@
     background-color: var(--cor-de-contraste);
     overflow: hidden;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .sobre .container {
+  .sobre .sobre-parte {
     overflow: hidden;
-    margin-top: 10rem;
+    margin-top: 1rem !important;
+    padding: 5rem 0;
+    margin: 2rem;
   }
   .sobre .container .row  {
     overflow: hidden;
@@ -20,6 +25,7 @@
     padding: 1rem 0;
     font-weight: bold;
     font-family: var(--roboto-mono);
+    margin-left: 1rem;
   }
   
   .sobre .container .row .citacao p{
@@ -27,6 +33,7 @@
     text-align: center;
     font-size: 2rem;
     font-family: var(--roboto-slab);
+    margin: 0 1rem;
   }
   .sobre .container .row .citacao span {
     color: var(--cor-destaque);
@@ -34,6 +41,7 @@
     font-size: 1.5rem;
     display: block;
     text-align: right;
+    margin-right: 1rem;
   }
   
   .sobre .container .row  .photo {
@@ -48,7 +56,7 @@
     font-weight: bold;
     font-family: var(--roboto);
     font-size: 3rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   
   .sobre .container .row  .texto p{
@@ -56,6 +64,7 @@
     font-family: var(--roboto-slab);
     font-size: 2rem;
     text-align: center;
+    margin: 0 2rem;
   }
   
   /* skills */
@@ -64,7 +73,7 @@
   }
   
   .container-skills {
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
   .container-skills .col-3 {
     display: flex;
