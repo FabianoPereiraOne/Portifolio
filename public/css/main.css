@@ -40,3 +40,83 @@
   font-family: var(--roboto-slab);
   text-decoration: none !important;
 }
+
+.contato {
+  min-height: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.contato .container .titulo {
+  margin: 7rem 0;
+  text-align: center;
+}
+.contato .container .titulo h1{
+  font-family: var(--ubuntu);
+  font-weight: bold;
+  font-size: 5rem;
+  color: var(--cor-complementar-dois);
+}
+
+.contato .container .titulo p {
+  color: var(--cor-de-contraste);
+  font-size: 2rem;
+  font-family: var(--roboto-slab);
+}
+.contato .container .form-row  .form-group label{
+  font-size: 2rem;
+  font-family: var(--roboto-condensed);
+  font-weight: bold;
+}
+
+.contato .container .form-row  .form-group .form-control {
+  border-radius: 2rem;
+  padding: 2rem;
+  border: 0.1rem solid var(--cor-complementar-tres);
+  font-size: 1.5rem;
+}
+
+.form-control:focus{ 
+  border-color: inherit; 
+  -webkit-box-shadow: none; 
+  box-shadow: none; 
+}
+/* btn */
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.form-row .btn {
+  background-color: var(--cor-complementar-dois);
+  border-radius: 2rem;
+  padding: 1rem 2.5rem;
+  color: rgb(228, 227, 227);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--roboto-condensed);
+  transition: 0.5s;
+}
+.form-row .btn span {
+  text-align: center;
+}
+.form-row .btn:hover {
+  color: var(--cor-de-fundo);
+}
+@media screen and (max-width: 768px) {
+  .contato .container .titulo h1 {
+    font-size: 4rem;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .contato .container .titulo h1 {
+    font-size: 3rem;
+  }
+  .contato .container .titulo p {
+    font-size: 1.5rem;
+  }
+}
+
