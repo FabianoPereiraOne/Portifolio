@@ -20,6 +20,11 @@
     font-size: 2rem;
     font-family: var(--roboto-slab);
   }
+  .contato .container .form-row {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
   .contato .container .form-row  .form-group label{
     font-size: 2rem;
     font-family: var(--roboto-condensed);

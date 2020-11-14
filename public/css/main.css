@@ -42,4 +42,20 @@
   text-decoration: none !important;
 }
 
-
+.alerta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.display {
+  display: none;
+}
+.toast {
+  color: var(--cor-de-fundo);
+  border-radius: 1rem;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}

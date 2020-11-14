@@ -342,11 +342,12 @@
       <form action="https://api.staticforms.xyz/submit" method="post" class="form-row">
         <input type="hidden" name="accessKey" value="63fed44d-3216-4605-83a2-cf9eb4af71de">
         <input type="hidden" name="redirectTo" value="https://portifolio.fabianopereiraone.vercel.app/">
+
         <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 mb-2">
           <div class="form-group">
             <label for="name" class="form-group-label">Nome*</label>
             <input class="form-control border--outline-sucess" type="text" name="name" id="name" required
-              placeholder="Qual é seu nome?" maxlength="20">
+              placeholder="Qual é seu nome?" maxlength="25">
           </div>
         </div>
         <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 mb-2">
@@ -370,8 +371,15 @@
               placeholder="Olá, Td bem com vc? Fale como posso te ajudar." maxlength="400"></textarea>
           </div>
         </div>
+        <div class="col-12 mb-2 alerta display" id="id-alerta">
+          <div class="toast bg-success show">
+            <div class="toast-body">
+              <span>E-mail enviado com sucesso!</span>
+            </div>
+          </div>
+        </div>
         <div class="col-12 container-btn">
-          <button type="submit" class="btn">
+          <button type="submit" class="btn" onclick="alerta()">
             <span>Entrar em contato</span>
             <i class="fas fa-paper-plane"></i>
           </button>
@@ -443,6 +451,7 @@
     crossorigin="anonymous"></script>
   <script src="public/js/jquery-3.1.0.js"></script>
   <script src="public/js/animation.js"></script>
+  <script src="public/js/main.js"></script>
 </body>
 
 </html>
