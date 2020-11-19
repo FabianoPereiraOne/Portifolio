@@ -1,6 +1,7 @@
 
 .bg-projetos {
     background-color: var(--cor-de-contraste);
+    padding: 5rem 1rem;
   }
   .bg-projetos .linha-1 {
     margin-top: 4rem;
