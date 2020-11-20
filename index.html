@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="public/css/main.css" />
   <link rel="stylesheet" href="public/css/animations.css" />
   <link rel="stylesheet" href="public/css/navbar.css" />
-  <link rel="stylesheet" href="public/css/slide.css" />
+  <link rel="stylesheet" href="public/css/center-home.css" />
   <link rel="stylesheet" href="public/css/sobre.css" />
   <link rel="stylesheet" href="public/css/projetos.css" />
   <link rel="stylesheet" href="public/css/contato.css" />
@@ -79,56 +79,28 @@
     </div>
   </nav>
 
-  <div class="container-fluid bg-1 p-0">
-    <!-- Slide -->
-    <div class="container cards-home p-0">
-      <div class="carousel slide h-100" data-ride="carousel">
-        <div class="carousel-inner h-100">
-          <div class="carousel-item banner active" data-interval="10000">
-            <h1>Programador Web</h1>
-            <hr class="hr" />
-            <p>
-              Todas as infomações sobre mim, meus projetos, contato e muito
-              mais estão disponiveis aqui. Curioso para saber sobre mim? Está
-              buscando um programador Front-End capaz de criar interfaces
-              incriveis na web? Entao embarque nessa jornada e conheça os
-              projetos que eu sou capaz de desenvolver.
-            </p>
-            <a href="#sobre" class="scroll-page">Começar</a>
-          </div>
-          <div class="carousel-item w-100" data-interval="4000">
-            <h1>Redes Sociais</h1>
-            <hr class="my-0" />
-            <div class="container">
-              <div class="row redes-sociais">
-                <div class="col-12">
-                  <a href="https://github.com/FabianoPereiraOne" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                    <span>GitHub</span>
-                  </a>
-                </div>
-                <div class="col-12">
-                  <a href="https://www.linkedin.com/in/fabiano-pereireira-one/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    <span>Linkedin</span>
-                  </a>
-                </div>
-                <div class="col-12">
-                  <a href="https://api.whatsapp.com/send?l=pt_BR&phone=+5533999319313&text=Oi Fabiano, estou interessado em seus serviços!"
-                    target="_blank">
-                    <i class="fab fa-whatsapp-square"></i>
-                    <span>Whatsapp</span>
-                  </a>
-                </div>
-                <div class="col-12">
-                  <p>
-                    Me siga nas redes sociais para você ficar por dentro de todos os
-                    projetos que eu faço.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div class="container-fluid bg-home">
+    <div class="container center h-100">
+      <div class="row">
+        <div class="col-12">
+          <h1>Programador Web</h1>
+          <hr>
+          <p>
+          Todas as infomações sobre mim, meus projetos, contato e muito
+          mais estão disponiveis aqui. Curioso para saber sobre mim? Está
+          buscando um programador Front-End capaz de criar interfaces
+          incriveis na web? Entao embarque nessa jornada e conheça os
+          projetos que eu sou capaz de desenvolver.
+          </p>
+          <a href="#sobre" class="scroll-page">
+            <span style="--i: 15">C</span>
+            <span style="--i: 16">o</span>
+            <span style="--i: 17">m</span>
+            <span style="--i: 18">e</span>
+            <span style="--i: 19">ç</span>
+            <span style="--i: 20">a</span>
+            <span style="--i: 21">r</span>
+          </a>
         </div>
       </div>
     </div>
@@ -207,11 +179,11 @@
   </div>
 
   <!--Projetos-->
-  <div class="container-fluid bg-projetos" id="projetos">
+  <div class="container-fluid bg-projetos" id="projetos" data-aos="fade-up">
     <div class="row linha-1">
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
-        <div class="card">
-          <div class="card-body">
+        <div class="card" >
+          <div class="card-body" data-aos-delay="100">
             <img src="public/img/dashboard-sm.PNG" class="img-fluid" alt="Dashboard">
             <div class="card-img-overlay">
               <h2 class="card-title">Painel de Controle</h2>

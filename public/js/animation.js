@@ -12,7 +12,7 @@
 })(jQuery);
 
 alegre = () =>{
-   const logo = document.querySelector("#logo") 
+   const logo = document.querySelector("#logo")  
    logo.classList.toggle("wavy")
 }
 

@@ -17,6 +17,7 @@
   --cor-complementar-dois: #e62a33;
   --cor-complementar-tres: #353b48;
   --cor-complementar-quatro: #FF073A;
+  --cor-complementar-cinco: #00022E;
 
   /* fontes */
   --lato: "Lato", sans-serif;
@@ -43,6 +44,9 @@
   text-decoration: none !important;
 }
 
+.icon-top i {
+  overflow: hidden;
+}
 .alerta {
   display: flex;
   justify-content: center;

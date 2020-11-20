@@ -50,6 +50,9 @@
     align-items: center;
     margin-bottom: 2rem;
   }
+  .container-btn .btn i {
+    overflow: hidden;
+  }
   .form-row .btn {
     background-color: var(--cor-complementar-dois);
     border-radius: 2rem;
