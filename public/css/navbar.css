@@ -16,6 +16,9 @@
   align-items: center;
 }
 
+.nav-brand i {
+  overflow: hidden;
+}
 .nav-brand:hover {
   text-decoration: none;
   color: var(--cor-de-fundo);
