@@ -27,9 +27,9 @@
 .bg-1 .carousel-item h1 {
   font-size: 5rem;
   font-family: var(--ubuntu);
-  color: var(--cor-complementar-dois);
+  color: var(--cor-complementar-quatro);
   font-weight: bold;
-  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-fundo);
+  text-shadow: 0.1rem 0.1rem 0.1rem var(--cor-de-contraste);
 }
 .bg-1 .carousel-item hr {
   width: 15rem;
@@ -63,7 +63,7 @@
     font-weight: bold;
 }
 .bg-1 .banner a:hover  {
-    background: #e61f29;
+    background: var(--cor-complementar-quatro);
 }
 
 /*redes sociais*/
