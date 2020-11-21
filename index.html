@@ -182,10 +182,10 @@
   <div class="container-fluid bg-projetos" id="projetos" data-aos="fade-up">
     <div class="row linha-1">
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
-        <div class="card" >
-          <div class="card-body" data-aos-delay="100">
-            <img src="public/img/dashboard-sm.PNG" class="img-fluid" alt="Dashboard">
-            <div class="card-img-overlay">
+        <div class="card">
+          <div class="card-body">
+            <img  data-indent="dashboard" onclick="visibleCards(event)"  src="public/img/dashboard-sm.PNG" class="img-fluid" alt="Dashboard">
+            <div id="dashboard" class="card-img-overlay img-card">
               <h2 class="card-title">Painel de Controle</h2>
               <p class="card-text">Um painel de controle criado com bootstrap 4 com auxilio do Html5 e Css3, 100%
                 responsivo e moderno.
@@ -198,8 +198,9 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/one-page-sm.PNG" class="img-fluid" alt="OnePage">
-            <div class="card-img-overlay">
+            <img  data-indent="onepage" onclick="visibleCards(event)" src="public/img/one-page-sm.PNG" class="img-fluid" alt="OnePage">
+
+            <div id="onepage" class="card-img-overlay  img-card">
               <h2>Pagina de vendas de Cursos</h2>
               <p class="card-text">
                 Pagina criada com Html5, Css3 e Bootstrap 4, 100% responsiva, com layout moderno e com efeitos visuais
@@ -213,8 +214,8 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/hotel-paraiso-sm.PNG" class="img-fluid" alt="Hotel Paraiso">
-            <div class="card-img-overlay">
+            <img data-indent="hotel" onclick="visibleCards(event)"   src="public/img/hotel-paraiso-sm.PNG" class="img-fluid" alt="Hotel Paraiso">
+            <div id="hotel" class="card-img-overlay img-card">
               <h2 class="card-title">Site de Viagem</h2>
               <p class="card-text">
                 Site de viagem inspirado em um lugar tropical, 100% responsivo e com layout moderno, criado com Html5,
@@ -228,8 +229,8 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/happy-sm.PNG" class="img-fluid" alt="Happy">
-            <div class="card-img-overlay">
+            <img data-indent="happy" onclick="visibleCards(event)"  src="public/img/happy-sm.PNG" class="img-fluid" alt="Happy">
+            <div id="happy" class="card-img-overlay img-card">
               <h2 class="card-title">Happy</h2>
               <p class="card-text">
                 Um site criado com Html5, Css3, Javascript e Api com objetivo de cadastrar Casas de Acolhimento de
@@ -245,8 +246,8 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/landing-page-sm.PNG" class="img-fluid" alt="Landing Page">
-            <div class="card-img-overlay">
+            <img data-indent="landing" onclick="visibleCards(event)"  src="public/img/landing-page-sm.PNG" class="img-fluid" alt="Landing Page">
+            <div id="landing" class="card-img-overlay  img-card">
               <h2 class="card-title">Landing Page</h2>
               <p class="card-text">
                 Uma pagina de captura de dados de usuarios criada com Html5, Css3 e Bootstrap.
@@ -259,8 +260,9 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/task-sm.PNG" class="img-fluid" alt="Task">
-            <div class="card-img-overlay">
+            <img data-indent="todo" onclick="visibleCards(event)"  src="public/img/task-sm.PNG" class="img-fluid" alt="Task">
+
+            <div id="todo" class="card-img-overlay  img-card">
               <h2 class="card-title">Lista de Tarefas</h2>
               <p class="card-text">
                 Um site criado com Html5, Css3, Javascript que permite ao usuario criar listas de tarefa e blocos de
@@ -274,8 +276,8 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/google-glass-sm.PNG" class="img-fluid" alt="Google Glass">
-            <div class="card-img-overlay">
+            <img data-indent="google" onclick="visibleCards(event)"  src="public/img/google-glass-sm.PNG" class="img-fluid" alt="Google Glass">
+            <div id="google" class="card-img-overlay  img-card">
               <h2 class="card-title">Google Glass</h2>
               <p class="card-text">
                 Um site criado com Html5, Css3, Javascript que informa os detalhes sobre a tecnologia dos ocúlos
@@ -289,8 +291,8 @@
       <div class="col-lg-3 col-xl-3 col-md-6 col-sm-12 col-xs-12 mb-5">
         <div class="card">
           <div class="card-body">
-            <img src="public/img/calculadora-sm.PNG" class="img-fluid" alt="Calculadora">
-            <div class="card-img-overlay">
+            <img data-indent="calculadora" onclick="visibleCards(event)"  src="public/img/calculadora-sm.PNG" class="img-fluid" alt="Calculadora">
+            <div id="calculadora" class="card-img-overlay  img-card">
               <h2 class="card-title">Calculadora</h2>
               <p class="card-text">
                 Uma calculadora simples criada com Html5, Css3 e Javascript com objetivo de fazer calculos rapidos

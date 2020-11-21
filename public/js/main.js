@@ -10,3 +10,22 @@ alerta = () =>{
         obj.classList.toggle("display")
     }
 }
+
+
+visibleCards = (event) =>{
+    let card = sessionStorage.getItem("card-Ativo")
+
+    if(card === 'undefined' || card === null){
+       sessionStorage.setItem("card-Ativo", event.target.dataset.indent)
+       console.log(`card setado`)
+    }else{
+        let adiciona = document.getElementById(card)
+        adiciona.classList.add("img-card")
+
+        // setar novo id
+        sessionStorage.setItem("card-Ativo", event.target.dataset.indent)
+    }
+
+    let obj = document.getElementById(event.target.dataset.indent)
+    obj.classList.toggle("img-card")
+}
