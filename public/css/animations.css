@@ -63,3 +63,27 @@
     opacity: 1;
   }
 }
+
+@keyframes trocarColor {
+  0% {
+    border: 0.1rem dashed var(--cor-de-fundo);
+  }
+  50% {
+    border: 0.1rem dashed var(--cor-complementar-um);
+  }
+  100% {
+    border: 0.1rem dashed var(--cor-de-fundo);
+  }
+}
+
+@keyframes degrade {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

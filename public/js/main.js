@@ -1,3 +1,4 @@
+
 alerta = () =>{
     let nome = document.getElementById("name")
     let email = document.getElementById("email")
