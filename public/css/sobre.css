@@ -74,6 +74,7 @@
 
   .carousel-item{
     transition: 2s ease;
+    padding: 0 1rem;
   }
   
   .container-skills {
